@@ -13,5 +13,5 @@ registry.cn-qingdao.aliyuncs.com/muco/knative:event.webhook.0.14|  gcr.io/knativ
 
 
 
-## Ref:
+## Ref
 [通过阿里云快速获取gcr.io上的镜像文件](https://www.jianshu.com/p/aac137b8a022)
