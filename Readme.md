@@ -12,5 +12,6 @@ registry.cn-qingdao.aliyuncs.com/muco/knative:event.apiserver_receive_adapter.0.
 registry.cn-qingdao.aliyuncs.com/muco/knative:event.webhook.0.14|  gcr.io/knative-releases/knative.dev/eventing/cmd/webhook@sha256:20b5a2b3c7a5543f446de47f5b50eea9d52fee9cbd04157e92ecc2ec6f4fa08a
 
 
+
 ## Ref:
 [通过阿里云快速获取gcr.io上的镜像文件](https://www.jianshu.com/p/aac137b8a022)
