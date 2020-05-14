@@ -1,1 +1,1 @@
-FROM gcr.io/knative-releases/knative.dev/eventing/cmd/ping/jobrunner@sha256:9838d57f6cd0a43621af4aeec6371fb0d8c69adfb49740755f9034f2d4f04278
+FROM gcr.io/knative-releases/knative.dev/eventing/cmd/webhook@sha256:20b5a2b3c7a5543f446de47f5b50eea9d52fee9cbd04157e92ecc2ec6f4fa08a
