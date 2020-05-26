@@ -1,0 +1,23 @@
+apiVersion: serving.knative.dev/v1alpha1
+kind: Configuration
+metadata:
+  name: knative-helloworld
+  namespace: default
+spec:
+  revisionTemplate:
+    spec:
+      container:
+        image: docker.io/gswk/knative-helloworld:latest
+        env:
+          - name: MESSAGE
+            value: "Knative!"
+---
+apiVersion: serving.knative.dev/v1alpha1
+kind: Route
+metadata:
+  name: knative-helloworld
+  namespace: default
+spec:
+  traffic:
+  - configurationName: knative-helloworld
+    percent: 100
